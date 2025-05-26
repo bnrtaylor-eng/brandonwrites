@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 /* Base Typography & Layout */
 body {
@@ -20,8 +20,8 @@ header {
 
 header h1 {
   margin: 0;
-  font-size: 3rem;
-  font-family: 'EB Garamond', serif;
+  font-size: 3.4rem;
+  font-family: 'Playfair Display', serif;
   letter-spacing: 0.5px;
 }
 
