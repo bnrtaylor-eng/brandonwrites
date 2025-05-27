@@ -24,13 +24,20 @@
       <p class="date">15 May 2025</p>
       <p class="summary">A short guide to how I use Git, XML, and static sites to build collaborative editions.</p>
       <div class="content">
-        <p>My editorial work relies on a small, consistent toolkit: Git for version control, TEI-XML for encoding, and Netlify for deployment. Together, these tools let me build transparent, collaborative digital editions that are easy to maintain and simple to publish.</p>
+        <p>My editorial work relies on a small, consistent toolkit: <a href="https://git-scm.com/" target="_blank">Git</a> for version control, <a href="https://tei-c.org/" target="_blank">TEI-XML</a> for encoding, and <a href="https://www.netlify.com/" target="_blank">Netlify</a> for deployment. Together, these tools let me build transparent, collaborative digital editions that are easy to maintain and simple to publish.</p>
 
-        <p>I use Git to track changes across each document. Every contribution—whether from students or collaborators—is versioned and documented. This makes it easy to review, revert, and credit editorial work over time.</p>
+        <p><strong>Git</strong> is a system that records changes to files over time. I use it to track every edit made to a document, whether I'm working alone or with students and collaborators. Every contribution is recorded in a clear history, so I can review what was added, undo changes if needed, and credit contributors accurately. Paired with platforms like GitHub, Git also makes it easy to collaborate without overwriting one another's work.</p>
+        
+        <p>Here’s a sample Git commit message from my workflow: <code>git commit -m "Add editorial notes to Letter 17"</code>. Each change is tracked with a clear message, making it easy to follow the document’s editorial history over time.</p>
 
-        <p>The core editing happens in TEI, an XML standard designed for textual scholarship. I encode each letter or document using a shared schema that marks structure, names, places, and editorial choices. This allows for rich semantic data and structured interpretation while keeping the source readable.</p>
+        <p><strong>TEI-XML</strong> is an encoding standard designed for scholarly texts. TEI stands for the Text Encoding Initiative, and it provides a shared vocabulary for marking the structure and meaning of texts. For example, I can mark names, places, headings, editorial notes, or deletions—all using a consistent, machine-readable format. I use TEI to encode letters from the <em>Early Modern Letters</em> project, making them searchable, analyzable, and structurally transparent to other scholars.</p>
 
-        <p>Netlify hosts and deploys the site as a static build, so there’s no database to manage and no barrier to viewing the work. Updates are immediate, and anyone with a browser can access the materials. This setup is ideal for student-driven, open-access editorial projects like <em>Early Modern Letters</em>.</p>
+        <p><strong>Netlify</strong> is a service that hosts static websites. That means it doesn’t require a database or server backend—just clean, prebuilt files. I connect my GitHub repository to Netlify, and any time I push an update, the site automatically rebuilds and redeploys. This lets me focus on content and accuracy, while keeping the technical overhead minimal. It also means the site is fast, accessible, and open to the public without barriers.</p>
+        <p>You don’t need to know Python, SQL, or how to set up a server to use these tools. If you're comfortable working with plain text files and a browser, you already have what you need to start. The tools are designed to be flexible and lightweight, not overwhelming.</p>
+
+        <p>If you're curious about building your own editorial or teaching project using similar tools, I recommend starting small. Try using Git to track changes in a text-based syllabus. Explore TEI's beginner tutorials and documentation at <a href="https://tei-c.org/support/" target="_blank">tei-c.org/support</a>. And consider Netlify if you're curious about publishing student work or primary source projects online without needing a full CMS.</p>
+
+        <p>In future posts, I’ll walk through specific editing tasks using these tools. If you’re interested in adapting this workflow to your own classroom or project, feel free to get in touch.</p>
       </div>
       <p><a href="../blog.html">← Back to blog</a></p>
     </article>
