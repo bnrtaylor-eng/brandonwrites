@@ -133,7 +133,9 @@ nav a:active {
 
 /* Recent Publications Section */
 .publication-card {
-  max-width: 500px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
   border: 1px solid #ddd;
   padding: 12px;
   margin: 15px 0;
