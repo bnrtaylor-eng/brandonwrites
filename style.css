@@ -130,3 +130,38 @@ nav a:active {
   margin-top: 0.5rem;
   line-height: 1.5;
 }
+
+/* Recent Publications Section */
+.publication-card {
+  max-width: 500px;
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin: 15px 0;
+  background-color: #fafafa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.publication-card:hover {
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+}
+
+.publication-card a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.publication-card p {
+  margin: 8px 0 0;
+  font-size: 0.95em;
+  line-height: 1.4;
+}
+
+.publication-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
