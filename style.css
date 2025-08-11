@@ -132,13 +132,16 @@ nav a:active {
 }
 
 /* Recent Publications Section */
+#recent-publications {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
 .publication-card {
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
   border: 1px solid #ddd;
   padding: 12px;
-  margin: 15px 0;
+  margin: 0;
   background-color: #fafafa;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
   border-radius: 6px;
