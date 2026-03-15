@@ -286,6 +286,13 @@ footer {
   margin-top: 0.2rem;
 }
 
+.publication-list .summary {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  font-size: 0.95rem;
+  color: #4a3728;
+}
+
 .publication-list li:last-child {
   border-bottom: none;
 }
