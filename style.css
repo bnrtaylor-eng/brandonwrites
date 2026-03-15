@@ -270,12 +270,20 @@ footer {
 .publication-list {
   list-style: none;
   padding-left: 0;
+  margin-top: 0.5rem;
 }
 
 .publication-list li {
   border-bottom: 1px solid #ddd0bc;
-  padding: 1.25rem 0;
+  padding: 1.1rem 0;
   line-height: 1.7;
+}
+
+.pub-venue {
+  display: block;
+  font-size: 0.88rem;
+  color: #7a6652;
+  margin-top: 0.2rem;
 }
 
 .publication-list li:last-child {
