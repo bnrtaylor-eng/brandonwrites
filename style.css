@@ -144,6 +144,68 @@ footer {
   letter-spacing: 0.04em;
 }
 
+/* ─── Homepage Two-Column Layout ───────────────────────────── */
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 260px;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+#bio h2 {
+  margin-top: 0;
+}
+
+#highlights {
+  background-color: #f3ede4;
+  border-left: 3px solid #c9a97a;
+  padding: 1.25rem 1.5rem;
+  border-radius: 0 4px 4px 0;
+}
+
+#highlights h2 {
+  font-size: 1.2rem;
+  margin-top: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.currently-date {
+  font-size: 0.85rem;
+  color: #7a6652;
+  font-style: italic;
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+}
+
+#highlights ul {
+  padding-left: 1rem;
+  margin: 0;
+}
+
+#highlights li {
+  font-size: 0.95rem;
+  margin-bottom: 0.85rem;
+  line-height: 1.6;
+}
+
+#highlights li:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 680px) {
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #highlights {
+    border-left: none;
+    border-top: 3px solid #c9a97a;
+    border-radius: 0 0 4px 4px;
+  }
+}
+
 /* ─── Publications List ─────────────────────────────────────── */
 
 .publication-list {
