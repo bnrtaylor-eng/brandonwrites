@@ -206,6 +206,58 @@ footer {
   }
 }
 
+/* ─── Teaching Page ─────────────────────────────────────────── */
+
+.course-grid {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.course-grid li {
+  background-color: #f3ede4;
+  border-top: 3px solid #c9a97a;
+  padding: 1.1rem 1.25rem;
+  border-radius: 0 0 4px 4px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.course-title {
+  display: block;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1rem;
+  color: #2c3a1e;
+  margin-bottom: 0.4rem;
+}
+
+.strengths-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.strengths-list li {
+  padding: 0.5rem 0 0.5rem 1.5rem;
+  position: relative;
+  border-bottom: 1px solid #ece4d8;
+  font-size: 0.97rem;
+}
+
+.strengths-list li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: #c9a97a;
+}
+
+.strengths-list li:last-child {
+  border-bottom: none;
+}
+
 /* ─── Publications List ─────────────────────────────────────── */
 
 .publication-list {
