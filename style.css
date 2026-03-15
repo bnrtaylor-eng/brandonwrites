@@ -131,42 +131,18 @@ nav a:active {
   line-height: 1.5;
 }
 
-/* Recent Publications Section */
-#recent-publications .publication-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
+/* Publications List */
+.publication-list {
+  list-style: none;
+  padding-left: 0;
 }
 
-.publication-card {
-  border: 1px solid #ddd;
-  padding: 12px;
-  margin: 0;
-  background-color: #fafafa;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
-  border-radius: 6px;
-  transition: box-shadow 0.2s ease-in-out;
+.publication-list li {
+  border-bottom: 1px solid #eee;
+  padding: 1rem 0;
+  line-height: 1.6;
 }
 
-.publication-card:hover {
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
-}
-
-.publication-card a {
-  text-decoration: none;
-  color: inherit;
-  display: block;
-}
-
-.publication-card p {
-  margin: 8px 0 0;
-  font-size: 0.95em;
-  line-height: 1.4;
-}
-
-.publication-img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-  border-radius: 4px;
+.publication-list li:last-child {
+  border-bottom: none;
 }
