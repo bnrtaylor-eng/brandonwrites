@@ -270,13 +270,18 @@ footer {
 .publication-list {
   list-style: none;
   padding-left: 0;
-  margin-top: 0.5rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0;
 }
 
 .publication-list li {
   border-bottom: 1px solid #ddd0bc;
-  padding: 1.1rem 0;
+  padding: 0.75rem 0;
   line-height: 1.7;
+}
+
+.publication-list + h3 {
+  margin-top: 1.1rem;
 }
 
 .pub-venue {
