@@ -265,23 +265,37 @@ footer {
   border-bottom: none;
 }
 
-/* ─── Publications List ─────────────────────────────────────── */
+/* ─── Publications Grid ─────────────────────────────────────── */
 
-.publication-list {
+.pub-grid {
   list-style: none;
   padding-left: 0;
-  margin-top: 0.25rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.25rem;
+  margin-top: 0.75rem;
   margin-bottom: 0;
 }
 
-.publication-list li {
-  border-bottom: 1px solid #ddd0bc;
-  padding: 0.75rem 0;
-  line-height: 1.7;
+.pub-grid li {
+  background-color: #f3ede4;
+  border-top: 3px solid #c9a97a;
+  padding: 1.1rem 1.25rem;
+  border-radius: 0 0 4px 4px;
+  line-height: 1.6;
 }
 
-.publication-list + h3 {
-  margin-top: 1.1rem;
+.pub-grid + h3 {
+  margin-top: 1.5rem;
+}
+
+.pub-title {
+  display: block;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1rem;
+  color: #2c3a1e;
+  margin-bottom: 0.4rem;
+  text-decoration-color: #c9a97a;
 }
 
 .pub-venue {
@@ -289,17 +303,6 @@ footer {
   font-size: 0.88rem;
   color: #7a6652;
   margin-top: 0.2rem;
-}
-
-.publication-list .summary {
-  margin-top: 0.5rem;
-  margin-bottom: 0;
-  font-size: 0.95rem;
-  color: #4a3728;
-}
-
-.publication-list li:last-child {
-  border-bottom: none;
 }
 
 /* ─── Blog / Post Pages ─────────────────────────────────────── */
